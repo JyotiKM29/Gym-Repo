@@ -94,8 +94,14 @@ const Hero = () => {
 
         {/*hero button */}
         <div className="hero-buttons">
-          <buttons className="btn"> Get Started</buttons>
+         
+             <buttons className="btn"> Get Started</buttons>
+          
+
+        
           <buttons className="btn"> learn More</buttons>
+          
+          
         </div>
       </div>
 

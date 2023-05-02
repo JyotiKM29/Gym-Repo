@@ -44,7 +44,7 @@ function Login() {
         
 
         //navigate to home 
-       navigate('/');
+       navigate('/program');
 
 
         // console.log(user);

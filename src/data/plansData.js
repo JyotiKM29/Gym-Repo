@@ -11,7 +11,7 @@ export const plansData = [
       </svg>
     ),
     name: "BASIC PLAN",
-    price: "25",
+    price: "499",
     features: [
       "2 hours of excercises",
       "Free consultaion to coaches",
@@ -22,7 +22,7 @@ export const plansData = [
     icon: (
       <svg
         width="28"
-        height="24"
+        height="22"
         viewBox="0 0 28 24"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -30,7 +30,7 @@ export const plansData = [
       </svg>
     ),
     name: "PREMIUM PLAN",
-    price: "30",
+    price: "699",
     features: [
       "5 hour of excercises",
       "Free consultaion of Coaches",
@@ -49,7 +49,7 @@ export const plansData = [
       </svg>
     ),
     name: "PRO PLAN",
-    price: "45",
+    price: "999",
     features: [
       "8 hours of excercises",
       "Consultation of Private Coach",

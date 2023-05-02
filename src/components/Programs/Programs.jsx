@@ -2,6 +2,7 @@ import React from 'react'
 import './Programs.css'
 import {programsData} from '../../data/programsData'
 import RightArrow from '../../assets/rightArrow.png'
+import {Link} from "react-router-dom";
 
 const Programs = () => {
   return (
@@ -20,7 +21,10 @@ const Programs = () => {
             <span>{program.heading}</span>
             <span>{program.details}</span>
             <div className="join-now">
-            <span>Join Now</span>
+            <Link to='/Signup'>
+              <span>Join Now</span>
+            </Link>
+            
             <img src={RightArrow}/>
             </div>
             </div>
