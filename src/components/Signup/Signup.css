@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100vw;
     /* background-color: #f48915; */
     background-image: linear-gradient( #ff8400, #814b09);
   }

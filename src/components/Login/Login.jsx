@@ -96,7 +96,7 @@ function Login() {
           Login
         </button>
 
-        <h2>Don't have an account? <Link to='/Signup'>Sign Up</Link></h2>
+        <h2>Don't have an account? <Link style={{color:"#f48915", textDecoration:"underline"}} to='/Signup'>Sign Up</Link></h2>
       </form>
     </div>
   );

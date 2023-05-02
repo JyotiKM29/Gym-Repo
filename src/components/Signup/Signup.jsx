@@ -126,7 +126,7 @@ function Signup() {
           Sign Up
         </button>
 
-        <h2>Already have an account? <Link to='/Login'>Login</Link></h2>
+        <h2>Already have an account? <Link style={{color:"#f48915", textDecoration:"underline"}} to='/Login'>Login</Link></h2>
 
       </form>
     </div>
