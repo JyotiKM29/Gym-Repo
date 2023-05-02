@@ -13,7 +13,7 @@ const Header = () => {
     <div className='header' >
      
       <img src={Logo} alt = "#" className="logo" />
-      {(menuOpened === false && mobile === true) ? (
+      {(menuOpened === true && mobile === true) ? (
          <div
            style={{
              BackgroundColor: "var(--appColor)",

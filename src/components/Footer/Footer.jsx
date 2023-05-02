@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+// import { Link } from 'react-router-dom';
 import Github from "../../assets/github.png";
 import Instagram from "../../assets/instagram.png";
 import LinkedIn from "../../assets/linkedin.png";
@@ -19,6 +20,7 @@ const Footer = () => {
         <div className='logo-f'>
             <img src={Logo} alt="" />
         </div>
+        <div className='build' >Build with ❤️  by <a className='name' href="https://jyoti-km.vercel.app/">Jyoti KM</a> </div>
         </div>
 
         <div className='blur blur-f-1'></div>

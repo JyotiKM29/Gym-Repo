@@ -50,3 +50,19 @@
     filter:blur(200px);
     background: rgb(255,115,0);
 }
+
+.build{
+    color: white;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+}
+
+.name{
+    padding: .6rem;
+    border-radius: .6rem;
+    font-weight: bold;
+}
+
+.name:hover{
+    background-color: rgba(255,115,0,.5) ;
+}
